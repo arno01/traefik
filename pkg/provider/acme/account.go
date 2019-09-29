@@ -73,6 +73,8 @@ func GetKeyType(ctx context.Context, value string) certcrypto.KeyType {
 		return certcrypto.EC256
 	case "EC384":
 		return certcrypto.EC384
+	case "EC521":
+		return certcrypto.EC521
 	case "RSA2048":
 		return certcrypto.RSA2048
 	case "RSA4096":

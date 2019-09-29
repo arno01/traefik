@@ -26,7 +26,7 @@
 # Optional
 # Default: "RSA4096"
 #
-# Available values : "EC256", "EC384", "RSA2048", "RSA4096", "RSA8192"
+# Available values : "EC256", "EC384", "EC521", "RSA2048", "RSA4096", "RSA8192"
 #
 --certificatesResolvers.sample.acme.keyType=RSA4096
 
