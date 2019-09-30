@@ -19,16 +19,16 @@ import (
 	traefiktls "github.com/containous/traefik/v2/pkg/tls"
 	"github.com/containous/traefik/v2/pkg/types"
 	"github.com/containous/traefik/v2/pkg/version"
-	"github.com/go-acme/lego/v3/certificate"
-	"github.com/go-acme/lego/v3/challenge"
-	"github.com/go-acme/lego/v3/challenge/dns01"
-	"github.com/go-acme/lego/v3/lego"
-	"github.com/go-acme/lego/v3/providers/dns"
-	"github.com/go-acme/lego/v3/registration"
+	"github.com/arno01/lego/v3/certificate"
+	"github.com/arno01/lego/v3/challenge"
+	"github.com/arno01/lego/v3/challenge/dns01"
+	"github.com/arno01/lego/v3/lego"
+	"github.com/arno01/lego/v3/providers/dns"
+	"github.com/arno01/lego/v3/registration"
 )
 
 var (
-	// oscpMustStaple enables OSCP stapling as from https://github.com/go-acme/lego/issues/270
+	// oscpMustStaple enables OSCP stapling as from https://github.com/arno01/lego/issues/270
 	oscpMustStaple = false
 )
 

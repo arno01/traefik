@@ -5,8 +5,8 @@ import (
 
 	"github.com/containous/traefik/v2/pkg/log"
 	"github.com/containous/traefik/v2/pkg/types"
-	"github.com/go-acme/lego/v3/challenge"
-	"github.com/go-acme/lego/v3/challenge/tlsalpn01"
+	"github.com/arno01/lego/v3/challenge"
+	"github.com/arno01/lego/v3/challenge/tlsalpn01"
 )
 
 var _ challenge.Provider = (*challengeTLSALPN)(nil)
