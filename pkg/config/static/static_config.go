@@ -13,6 +13,7 @@ import (
 	"github.com/containous/traefik/v2/pkg/provider/file"
 	"github.com/containous/traefik/v2/pkg/provider/kubernetes/crd"
 	"github.com/containous/traefik/v2/pkg/provider/kubernetes/ingress"
+	"github.com/arno01/traefik/v2/pkg/provider/lego"
 	"github.com/containous/traefik/v2/pkg/provider/marathon"
 	"github.com/containous/traefik/v2/pkg/provider/rancher"
 	"github.com/containous/traefik/v2/pkg/provider/rest"
